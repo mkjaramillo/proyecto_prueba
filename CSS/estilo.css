@@ -1,0 +1,28 @@
+fieldset{
+    text-align: center;
+   
+}
+label{
+    display: block;
+}
+button{
+    display: block;  
+}
+#registro{
+    background: linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    color: transparent;  
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   text-align: center;
+
+}
+body{
+    background-color: aqua;
+}
+img{
+    font-size: medium;
+    border: solid blueviolet;
+}
+
