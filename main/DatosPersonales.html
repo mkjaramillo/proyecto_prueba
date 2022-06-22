@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo2.css">
+    <script src="../JS/datos.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" name="f1">
+        <h1>Formulario de registro</h1>
+        <fieldset>
+            <legend>Nombre y Apellido</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input  class="n1" id="idNombre" type="text">
+                        <label for="idNombre">Nombre</label>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <input  class="n1" id="idApellido1" type="text">
+                        <label for="idApellido1"> Primer Apellido</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input   class="n1" id="idApellido2" type="text">
+                        <label for="idApellido2"> Segundo Apellido</label>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dirección</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input id="idCalle" type="text">
+                        <label for="idCalle"> Calle</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="idCodigo" type="text">
+                        <label for="idCodigo"> Codigo Postal</label>
+                    </td>
+                    <td>
+                        <input id="idMunicipio" type="text">
+                        <label for="idMunicipio"> Municipio</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="" id="idPais">
+                            <option value="E">Ecuador</option>
+                            <option value="A">Argentina</option>
+                            <option value="B">Brasil</option>
+                        </select>
+                        <label for="idPais"> Pais</label>
+                    </td>
+                    <td>
+                        <select name="" id="idProvincia">
+                            <option value="Q">Quito</option>
+                            <option value="G">Guayaquil</option>
+                            <option value="A">Ambato</option>
+                        </select>
+                        <label for="idProvincia"> Provincia</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input id="idCorreo" type="email">
+                       
+                    </td>
+                   
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Telefono</legend>
+            <table>
+                <td>
+                    <input id="idFijo" type="text">
+                    <label for="idFijo"> Fijo</label>
+                </td>
+                <td>
+                    <input id="idMovil" type="text">
+                    <label for="idMovil">Movil</label>
+                </td>
+
+            </table>
+        </fieldset>
+        <div>
+            <button onclick="mostrarDatos()">ingresar</button>
+        </div>
+      
+    </form>
+<fieldset>
+  <legend>Informacion Personal</legend>
+    <p id="n"></p>
+</fieldset>
+
+
+
+</p>
+</body>
+
+</html>

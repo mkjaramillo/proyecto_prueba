@@ -1,0 +1,18 @@
+label{
+    display: block;
+}
+table{
+    margin: auto;
+  
+}
+input{
+    border: transparent;
+    border-bottom: 0.2em solid black;
+ 
+}
+div{
+    text-align: right;
+}
+fieldset:hover{
+    background-color: aquamarine;
+}
